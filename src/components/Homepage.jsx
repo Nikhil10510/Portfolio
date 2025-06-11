@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 
 function Homepage() {
   return (
-    <div id='about' className= 'text-white py-20 px-[7vw] md:px-[10vw] lg:px-[12vw] mt-16 md:mg-24 bg-skills-gradient clip-path-custom2'>
+    <div id='about' className= 'mt-28 text-white py-20 px-[7vw] md:px-[10vw] lg:px-[12vw] bg-skills-gradient clip-path-custom2'>
       <motion.img
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -12,7 +12,7 @@ function Homepage() {
           delay: 0.5,
           duration: 0.5
         }}
-        src={avatar} className='mx-auto w-2/3 md:w-1/3 lg:wd-1/4' />
+        src={avatar} className='mx-auto w-4/5 md:w-1/3 lg:w-1/2' />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
