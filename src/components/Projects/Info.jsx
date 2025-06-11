@@ -4,17 +4,19 @@ import movierecLogo from "../../assets/movie_rec.png"
 import npmLogo from "../../assets/npm.png"
 import taskremLogo from "../../assets/task_rem.png"
 import imagesearchLogo from "../../assets/image_search.png"
+import Portfolio from "../../assets/Portfolio.png"
+
 
 let info =[
 {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Portfolio",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "This portfolio is a reflection of my journey in building modern web applications, designing intuitive interfaces, and solving real-world problems with code. Here you’ll find my academic achievements, personal projects and Skills. Let’s connect and create something amazing together!",
+      image: Portfolio,
+      tags: ["HTML", "TAILWIND CSS", "JavaScript", "React JS", "FRAMER MOTION"],
+      github: "https://github.com/Nikhil10510/Portfolio",
+      webapp: "https://nikhil1657.vercel.app/",
     },
     {
       id: 1,

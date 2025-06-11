@@ -2,6 +2,7 @@ import React from 'react'
 import avatar from "../assets/mobile-app.svg"
 import { motion } from 'motion/react'
 
+
 function Homepage() {
   return (
     <div id='about' className='mt-16 text-white py-20 px-[7vw] md:px-[10vw] lg:px-[12vw] bg-skills-gradient clip-path-custom2'>
@@ -32,8 +33,8 @@ function Homepage() {
     >
       Hello Everyone
       <motion.span
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: 40 ,scale:0.5}}
+        animate={{ opacity: 1, y: 0 ,scale:1}}
         transition={{ delay: 0.9, duration: 0.5 }}
         className='text-purple-500'
       >
