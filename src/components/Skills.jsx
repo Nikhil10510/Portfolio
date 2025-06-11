@@ -21,8 +21,9 @@ function Skills() {
 
        <motion.div
           initial={{ opacity: 0, x: -100 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.5, duration: 0.5 }} // Reduced delay for quicker appearance
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          viewport={{ once: true }} // Reduced delay for quicker appearance
           className='w-full md:flex-1 flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 p-4 md:p-8 lg:p-12 rounded-lg mt-4 md:mt-20' // Responsive gaps and padding
           // Removed md:2/5 (likely typo), removed ml-20, removed gap-y-10 (handled by gap-*)
         >
