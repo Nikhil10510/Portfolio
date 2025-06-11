@@ -64,7 +64,7 @@ function Homepage() {
         stiffness: 80 
       }}
       whileTap={{ scale: 0.97 }}
-      href="#"
+      href="https://drive.google.com/file/d/1Lirsyp3RdbzsG4-ush61hG9EzNA9r6nN/view"
       target='_blank'
       className='inline-block text-white py-4 px-6 rounded-full mt-1 font-bold transition duration-300 transform hover:scale-105'
       style={{
