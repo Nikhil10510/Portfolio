@@ -4,8 +4,8 @@ import Homepage from './components/Homepage'
 import Skills from './components/Skills'
 import Education from './components/Timeline/Education'
 import Project from './components/Projects/Project'
-import Contact from './components/contact'
-import Footer from './components/footer'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 
