@@ -19,7 +19,7 @@ function Homepage() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        viewport={{ once: true,amount: 0.6 }}
+        viewport={{ once: false,amount: 0.6 }}
         className='container mx-auto text-center'>
         <motion.h1
           initial={{ opacity: 0, y: 100 }}
